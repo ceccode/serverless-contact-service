@@ -1,5 +1,7 @@
 # Serverless contact form
 
+[![Build Status](https://travis-ci.org/ceccode/serverless-contact-form.svg?branch=master)](https://travis-ci.org/ceccode/serverless-contact-form)
+
 API Gateway + AWS Lambda + AWS SES 
 
 The email function use the AWS SDK for Node.js to send an email using [AWS Simple Email Service](https://aws.amazon.com/ses/).
