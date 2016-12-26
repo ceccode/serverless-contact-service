@@ -1,9 +1,9 @@
 {
-  "name": "serverless-contact-form",
+  "name": "serverless-contact-service",
   "version": "0.0.1",
-  "description": "Serverless contact form service",
+  "description": "Serverless contact service",
   "license": "MIT",
-  "main": "handler.js",
+  "main": "src/email.js",
   "author": "Francesco Falanga <falanga.fra@gmail.com>",
   "scripts": {
     "offline": "serverless offline start --port 4000",
@@ -13,12 +13,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ceccode/serverless-contact-form"
+    "url": "git+https://github.com/ceccode/serverless-contact-service"
   },
   "bugs": {
-    "url": "https://github.com/ceccode/serverless-contact-form"
+    "url": "https://github.com/ceccode/serverless-contact-service"
   },
-  "homepage": "https://github.com/ceccode/serverless-contact-form#readme",
+  "homepage": "https://github.com/ceccode/serverless-contact-service#readme",
   "keywords": [
     "serverless",
     "api-gateway",

@@ -1,4 +1,4 @@
-service: serverless-contact-form
+service: serverless-contact-service
 
 provider:
   name: aws
