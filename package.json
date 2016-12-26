@@ -1,0 +1,39 @@
+{
+  "name": "serverless-contact-form",
+  "version": "0.0.1",
+  "description": "Serverless contact form service",
+  "license": "MIT",
+  "main": "handler.js",
+  "author": "Francesco Falanga <falanga.fra@gmail.com>",
+  "scripts": {
+    "offline": "serverless offline start --port 4000",
+    "deploy": "serverless deploy",
+    "test": "NODE_ENV=test ./node_modules/.bin/mocha ./tests/*.js",
+    "test-travis": "istanbul cover ./node_modules/mocha/bin/_mocha -- -R spec ./tests/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ceccode/serverless-contact-form"
+  },
+  "bugs": {
+    "url": "https://github.com/ceccode/serverless-contact-form"
+  },  
+  "homepage": "https://github.com/ceccode/serverless-contact-form#readme",  
+  "keywords": [
+    "serverless",
+    "api-gateway",
+    "contact",
+    "email",
+    "ses"
+  ],  
+  "dependencies": {
+    "email-validator": "^1.0.7"
+  },
+  "devDependencies": {
+    "aws-sdk": "2.4.2",
+    "chai": "^3.5.0",
+    "eslint": "^3.9.1",
+    "mocha": "^3.2.0",
+    "serverless-offline": "^3.6.0"
+  }
+}
