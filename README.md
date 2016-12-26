@@ -18,6 +18,8 @@ Usefull for:
 
 ## Install
 
+Clone the project: `git clone git@github.com:ceccode/serverless-contact-service.git`
+
 ```
 npm install
 ```
