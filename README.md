@@ -90,3 +90,7 @@ npm test
 ```
 npm run test-travis
 ```
+
+## License
+
+[MIT license](LICENSE)
