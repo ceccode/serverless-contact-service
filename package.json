@@ -17,15 +17,15 @@
   },
   "bugs": {
     "url": "https://github.com/ceccode/serverless-contact-form"
-  },  
-  "homepage": "https://github.com/ceccode/serverless-contact-form#readme",  
+  },
+  "homepage": "https://github.com/ceccode/serverless-contact-form#readme",
   "keywords": [
     "serverless",
     "api-gateway",
     "contact",
     "email",
     "ses"
-  ],  
+  ],
   "dependencies": {
     "email-validator": "^1.0.7"
   },
@@ -33,6 +33,7 @@
     "aws-sdk": "2.4.2",
     "chai": "^3.5.0",
     "eslint": "^3.9.1",
+    "istanbul": "^0.4.5",
     "mocha": "^3.2.0",
     "serverless-offline": "^3.6.0"
   }
