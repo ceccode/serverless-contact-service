@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/ceccode/serverless-contact-service.svg?branch=master)](https://travis-ci.org/ceccode/serverless-contact-service)
 [![Known Vulnerabilities](https://snyk.io/test/github/ceccode/serverless-contact-service/badge.svg)](https://snyk.io/test/github/ceccode/serverless-contact-service)
-
+[![https://david-dm.org/ceccode/serverless-contact-service.svg](https://david-dm.org/ceccode/serverless-contact-service.svg)](https://david-dm.org/ceccode/serverless-contact-service.svg)
 
 API Gateway + AWS Lambda + AWS SES 
 
