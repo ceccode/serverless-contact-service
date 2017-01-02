@@ -26,7 +26,6 @@ package:
     - tmp/**
     - .git/*    
     - node_modules/**
-    - '!node_modules/email-validator/**'
     - .coverage/**
     - tests/**
     - .jsconfig
@@ -49,3 +48,4 @@ functions:
 
 plugins:
   - serverless-offline
+  - serverless-plugin-include-dependencies
