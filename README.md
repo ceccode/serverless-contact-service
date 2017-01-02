@@ -18,7 +18,20 @@ Usefull for:
 
 ## Install
 
-Clone the project: `git clone git@github.com:ceccode/serverless-contact-service.git`
+1. Setup your [AWS Credentials](http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html)
+2. Install [Serverless.js](https://serverless.com/)
+
+```
+npm install -g serverless
+```
+
+3. Clone the project:
+
+```
+git clone git@github.com:ceccode/serverless-contact-service.git
+```
+
+4. Install dependencies
 
 ```
 npm install
