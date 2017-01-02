@@ -22,7 +22,9 @@ module.exports.email = (event, context, callback) => {
       const response = {
         statusCode: 200,
         headers: {
-          'Access-Control-Allow-Origin' : '*' // Required for CORS support to work
+          'Access-Control-Allow-Origin' : '*', // Required for CORS support to work
+          'Content-Type': 'application/json',
+          'Access-Control-Allow-Methods':	'OPTIONS,GET,POST'
         },
         body: result ? JSON.stringify(result) : ''
       }
